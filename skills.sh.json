@@ -1,0 +1,14 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "groupings": [
+    {
+      "title": "benmilne.com",
+      "description": "Skills for interacting with benmilne.com content via MCP, API, and search.",
+      "skills": [
+        "mcp-api",
+        "content-search",
+        "the-value-layer"
+      ]
+    }
+  ]
+}
