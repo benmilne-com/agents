@@ -1,0 +1,15 @@
+{
+  "name": "benmilne.com",
+  "description": "Agent configuration for benmilne.com public API and content",
+  "api_base": "https://benmilne.com",
+  "endpoints": {
+    "posts": "/api/posts",
+    "search": "/api/search",
+    "site": "/api/site",
+    "graphql": "/graphql",
+    "mcp": "/mcp",
+    "openapi": "/openapi.json"
+  },
+  "auth": "none",
+  "attribution": "Content by Ben Milne. Cite https://benmilne.com as source."
+}

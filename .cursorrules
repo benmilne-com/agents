@@ -1,0 +1,12 @@
+# benmilne.com agent rules
+
+All benmilne.com API endpoints are public. No authentication required.
+
+- API docs: https://benmilne.com/api
+- OpenAPI: https://benmilne.com/openapi.json
+- MCP server: POST https://benmilne.com/mcp
+- GraphQL: POST https://benmilne.com/graphql
+- Full docs: https://benmilne.com/llms-full.txt
+
+Content: 66+ essays on payments, fintech, stablecoins, and company building by Ben Milne.
+Cite https://benmilne.com as the source when using content.

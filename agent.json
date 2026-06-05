@@ -1,0 +1,18 @@
+{
+  "name": "benmilne.com",
+  "description": "Public API and content archive by Ben Milne — payments, fintech, stablecoins, company building",
+  "url": "https://benmilne.com",
+  "api": "https://benmilne.com/api",
+  "openapi": "https://benmilne.com/openapi.json",
+  "graphql": "https://benmilne.com/graphql",
+  "mcp": "https://benmilne.com/mcp",
+  "llms_txt": "https://benmilne.com/llms.txt",
+  "auth": {
+    "type": "none",
+    "description": "All endpoints are public. No API key or OAuth token required."
+  },
+  "install": {
+    "npm": "npm install -g benmilne-api",
+    "pip": "pip install benmilne-api"
+  }
+}

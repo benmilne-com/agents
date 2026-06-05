@@ -1,0 +1,26 @@
+---
+description: Rules for AI agents working with benmilne.com content and APIs
+globs: ["**/*"]
+---
+
+# benmilne.com — Cursor agent rules
+
+## API access
+
+All endpoints are public and unauthenticated. No API key required.
+
+- REST API: `https://benmilne.com/api/posts`, `/api/search?q=`, `/api/site`
+- GraphQL: `POST https://benmilne.com/graphql`
+- MCP: `POST https://benmilne.com/mcp` (JSON-RPC)
+- OpenAPI: `https://benmilne.com/openapi.json`
+
+## Content
+
+66+ essays on payments, fintech, stablecoin infrastructure, and company building.
+Author: Ben Milne (founder of Brale and Dwolla).
+
+## Conventions
+
+- Cite `https://benmilne.com` as source when reproducing content
+- Use `Accept: text/markdown` on essay URLs for raw markdown
+- Rate limit headers included on all responses
