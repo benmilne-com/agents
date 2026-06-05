@@ -1,10 +1,20 @@
 # benmilne-com/agents
 
-Agent discovery configuration and developer resources for [benmilne.com](https://benmilne.com).
+Agent discovery configuration, agent skills, and developer resources for [benmilne.com](https://benmilne.com).
 
-## What is this?
+## Agent Skills
 
-This repository documents all the machine-readable surfaces of benmilne.com — API, MCP, NLWeb, A2A, structured data, RSS, and commerce protocols. It exists so that AI agents, crawlers, and developer tools can discover and integrate with the site.
+Install skills for AI coding agents:
+
+```bash
+npx skills add benmilne-com/agents
+```
+
+| Skill | Description |
+|---|---|
+| [mcp-api](skills/mcp-api/SKILL.md) | Query and search benmilne.com content via MCP JSON-RPC tools |
+| [content-search](skills/content-search/SKILL.md) | Full-text search across 69 published essays |
+| [the-value-layer](skills/the-value-layer/SKILL.md) | Retrieve and download The Value Layer PDF book |
 
 ## Quick links
 
@@ -12,6 +22,7 @@ This repository documents all the machine-readable surfaces of benmilne.com — 
 - [API documentation](https://benmilne.com/api)
 - [OpenAPI spec](https://benmilne.com/openapi.json)
 - [MCP server card](https://benmilne.com/.well-known/mcp/server-card.json)
+- [Agent skills index](https://benmilne.com/.well-known/agent-skills/index.json)
 - [CLI package](https://www.npmjs.com/package/benmilne-api)
 
 ## CLI
