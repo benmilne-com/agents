@@ -27,6 +27,7 @@ npx skills add benmilne-com/agents
 
 ## Quick links
 
+- [Developer portal](https://benmilne.com/developers)
 - [MCP server docs](https://benmilne.com/mcp/docs)
 - [Agent discovery guide](AGENTS.md)
 - [API documentation](https://benmilne.com/api)
