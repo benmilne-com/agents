@@ -1,7 +1,7 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.benmilne-com/benmilne",
-  "description": "Read-only MCP server for benmilne.com — search posts, retrieve content, and discover information about Ben Milne. Public, unauthenticated, CORS-enabled.",
+  "description": "Search and read essays by Ben Milne on payments, stablecoins, and company building.",
   "repository": {
     "url": "https://github.com/benmilne-com/agents",
     "source": "github"
@@ -12,24 +12,6 @@
     {
       "type": "streamable-http",
       "url": "https://benmilne.com/mcp"
-    }
-  ],
-  "packages": [
-    {
-      "registryType": "npm",
-      "identifier": "benmilne-api",
-      "version": "1.0.5",
-      "transport": {
-        "type": "stdio"
-      }
-    },
-    {
-      "registryType": "pypi",
-      "identifier": "benmilne-api",
-      "version": "0.1.0",
-      "transport": {
-        "type": "stdio"
-      }
     }
   ]
 }
